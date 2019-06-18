@@ -1,8 +1,6 @@
-﻿hour = int(input("Starting time (hours): "))
+hour = int(input("Starting time (hours): "))
 mins = int(input("Starting time (minutes): "))
 dura = int(input("Event duration (minutes): "))
-
-# put your code here
 
 #calculate how many hours to add to the hour coloumn to the near integer
 left_over_hours = (dura//60)
